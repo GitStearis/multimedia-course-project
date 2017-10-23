@@ -49,14 +49,13 @@ footer {
 
 .home-image-container {
     width: 100%;
-    background-color: rgba(0, 0, 0, 0.8);
+    background-position: 50% 45%;
+    background-size: cover;
+    background-image: url("../img/unity.jpg");
 }
 
 .home-image {
     width: 100%;
     height: 50vh;
-    background-position: center;
-    background-size: cover;
-    position: relative;
-    background-image: url("../img/unity.jpg");
+    background-color: rgba(33, 33, 33, 0.5);
 }
