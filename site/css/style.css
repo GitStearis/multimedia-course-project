@@ -1,0 +1,62 @@
+body {
+    color: #333333;
+    font-size: 16px;
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    background-color: #e3e3e3;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 3em;
+    font-family: 'Roboto Condensed', Arial, Helvetica, sans-serif;
+    background-color: #333333;
+}
+
+main {
+    width: 100%;
+    min-height: 50vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: stretch;
+}
+
+article {
+    width: 60%;
+    min-height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: stretch;
+    background-color: #fdfdfd;
+}
+
+section.title {
+    font-family: 'Roboto Condensed', Arial, Helvetica, sans-serif;
+    width: 90%;
+}
+
+footer {
+    position: absolute;
+    right: 0;
+    left: 0;
+    width: 100%;
+    height: 5em;
+    background-color: #454545;
+}
+
+.home-image-container {
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.home-image {
+    width: 100%;
+    height: 50vh;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    background-image: url("../img/unity.jpg");
+}
