@@ -1,7 +1,7 @@
 body {
     color: #333333;
     font-size: 16px;
-    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     background-color: #e3e3e3;
 }
 
@@ -10,13 +10,13 @@ nav {
     top: 0;
     width: 100%;
     height: 3em;
-    font-family: 'Roboto Condensed', Arial, Helvetica, sans-serif;
     background-color: #333333;
 }
 
 main {
     width: 100%;
-    min-height: 50vh;
+    min-height: 100vh;
+    margin-top: 3em;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -26,16 +26,17 @@ main {
 article {
     width: 60%;
     min-height: 100%;
+    margin-bottom: 3em;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
-    align-items: stretch;
+    align-items: center;
     background-color: #fdfdfd;
 }
 
-section.title {
-    font-family: 'Roboto Condensed', Arial, Helvetica, sans-serif;
+section {
     width: 90%;
+    margin-bottom: 3em;
 }
 
 footer {
@@ -58,4 +59,93 @@ footer {
     width: 100%;
     height: 50vh;
     background-color: rgba(33, 33, 33, 0.5);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Roboto Condensed', Arial, Helvetica, sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-weight: 700;
+    font-style: normal;
+    margin: 1.5em 0.5em 1em;
+}
+
+h5,
+h6 {
+    font-weight: 500;
+}
+
+h1 {
+    font-size: 2em;
+}
+
+h2 {
+    font-size: 1.8em;
+}
+
+h3 {
+    font-size: 1.6em;
+}
+
+h4 {
+    font-size: 1.4em;
+}
+
+h5 {
+    font-size: 1.2em;
+}
+
+h6 {
+    font-size: 1em;
+}
+
+p,
+ul,
+li,
+a {
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+}
+
+p {
+    font-weight: 400;
+    line-height: 1.5em;
+    text-indent: 1.5em;
+    margin: 1em 1em 1em;
+}
+
+ul {
+    font-weight: 400;
+    line-height: 1.5em;
+    margin: 1em 2.5em 1em;
+}
+
+a {
+    color: #4bbf73;
+    text-decoration: underline;
+}
+
+.text-secondary {
+    color: #555555;
+}
+
+.text-info {
+    color: #4bbf73;
+    font-style: italic;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.text-center {
+    text-align: center;
 }
