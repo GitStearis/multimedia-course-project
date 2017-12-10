@@ -19,21 +19,21 @@ nav {
     align-items: center;
 }
 
-div.left {
+.left {
     width: 40%;
     text-align: left;
 }
 
-div.left p {
+.left p {
     text-indent: 0em;
 }
 
-div.center {
+.center {
     width: 20%;
     text-align: center;
 }
 
-div.right {
+.right {
     width: 40%;
     text-align: right;
 }
