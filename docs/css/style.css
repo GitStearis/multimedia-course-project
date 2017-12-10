@@ -111,7 +111,8 @@ h6 {
 p,
 ul,
 li,
-a {
+a,
+img {
     font-family: 'Open Sans', Arial, Helvetica, sans-serif;
 }
 
@@ -131,6 +132,21 @@ ul {
 a {
     color: #4bbf73;
     text-decoration: underline;
+}
+
+sub,
+sup {
+    line-height: 0.5em;
+}
+
+div.image-center {
+    text-align: center;
+    margin-top: 1em;
+    max-width: 100%;
+}
+
+img {
+    max-width: 100%;
 }
 
 .text-secondary {
