@@ -197,3 +197,130 @@ img {
 .text-center {
     text-align: center;
 }
+
+
+/*
+GOD, IT IS NOT MY FAULT
+*/
+
+
+/*оформление диалогового модуля*/
+
+.dialog {
+    position: fixed;
+    left: 100%;
+    width: 300px;
+    height: 400px;
+    margin-left: -35px;
+    bottom: 0%;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #333333;
+    color: #4bbf73;
+    z-index: 1500;
+}
+
+.dialog .label {
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    transform: rotate(270deg);
+    width: 430px;
+    height: 20px;
+    text-align: center;
+    overflow: hidden;
+    display: inline-block;
+    margin-left: -69%;
+    margin-top: 65%;
+    cursor: pointer;
+}
+
+.dialog .header {
+    text-align: center;
+    margin-top: -220px;
+}
+
+.dialog .history {
+    height: 300px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    background-color: #444444;
+}
+
+.dialog input,
+.dialog button,
+.dialog .history {
+    margin: 2px 25px;
+    width: 85%;
+    border: 1px #666 solid;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+::-webkit-input-placeholder {
+    text-indent: 0.5em;
+    background-color: #444444;
+}
+
+.dialog .input {
+    color: #eeeeee;
+    background-color: #555555;
+}
+
+.dialog .btn {
+    background-color: #4bbf73;
+}
+
+.dialog .history .question,
+.dialog .history .answer {
+    margin: 5px;
+    width: 78%;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.dialog .history .question {
+    margin-left: 40px;
+    background-color: #555555;
+}
+
+.dialog .history .answer {
+    margin-right: 40px;
+    background-color: #333333;
+}
+
+
+/*оформление картинок в диалоге*/
+
+.dialog .history .answer img,
+.dialog .history .answer embed,
+.dialog .history .answer audio,
+.dialog .history .answer video {
+    cursor: pointer;
+    display: block;
+    margin-top: 1em;
+    margin-bottom: 0.5em;
+    max-width: 180px;
+}
+
+
+/*оформление крупного плана картинок*/
+
+#imgalert {
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    margin: 0;
+    padding: 0;
+    z-index: 2000;
+}
+
+#img_in_alert {
+    display: block;
+    max-width: 100%;
+    max-height: 100%;
+    position: relative;
+    margin: auto;
+    z-index: 2000;
+    background: white;
+    border: 2px solid black;
+}
